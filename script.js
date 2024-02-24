@@ -1,5 +1,3 @@
-
-
 // Compatibility wrapper for requestAnimationFrame
 window.requestAnimFrame = (function () {
   return window.requestAnimationFrame ||
@@ -15,7 +13,7 @@ window.requestAnimFrame = (function () {
 // Main FX object for storing configuration and state
 var FX = {
   config: {
-    background: 'transparent',
+    background: 'rgba(250,250,250,0.2)',
     color: 'rgb(250,20,75)',
     highlight: 'rgb(250,20,20)'
   },
