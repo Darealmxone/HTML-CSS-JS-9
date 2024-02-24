@@ -15,7 +15,7 @@ window.requestAnimFrame = (function () {
  */
 var FX = {
 	config : {
-		background	: 'rgba(250,250,250,0.2)',
+		background	: 'transparent',
 		color		: 'rgb(250,20,75)',
 		highlight	: 'rgb(250,20,20)'
 	},
